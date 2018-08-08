@@ -1,0 +1,336 @@
+.tabs-wrap {
+	margin-top: 40px;
+}
+.tab-content .tab-pane {
+	padding: 20px 0;
+}
+.admin-tab .nav-tabs > li.active > a, .admin-tab .nav-tabs > li.active > a:focus, .admin-tab .nav-tabs > li.active > a:hover{
+ background:none;
+    border: none;
+    color: #fff; 
+ 
+}
+ 
+.tabs-wrap.admin-tab {
+    background: #f1f1f1 ;
+    float: left;
+    padding: 20px 0;
+    width: 900px;
+}
+.admin-tab .nav-tabs > li {
+      display: inline-block;
+    float: none;
+    margin: 0 -2px;
+    width: 30%;
+}
+.admin-tab .nav-tabs > li > a {
+ background: #dfdfdf;
+    border: medium none;
+    border-radius: 0;
+    color: #337ab7;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.admin-tab .nav-tabs {
+  
+    border-bottom: medium none;
+    text-align: center;
+}
+.admin-tab  .tab-content {
+ 
+    float: left;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.admin-tab  .tab-content .tab-pane {
+    padding: 20px 30px;
+}
+ 
+.admin-tab .tab-content .tab-pane  h3{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+ 
+.admin-tab .tab-content form select, .admin-tab .tab-content form input[type="file"] {
+    border-color: #ddd currentcolor #ddd #ddd;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid none solid solid;
+    border-width: 1px 2px 1px 1px;
+    float: left;
+	   text-transform: capitalize;
+    height: 34px;
+    margin: 0 0 22px;
+	padding:0px 5px;
+    width: 100%;
+}
+ .admin-tab .tab-content form input[type="file"]{border:none;
+ }
+.admin-tab .tab-content .tab-pane form label {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.admin-tab .tab-content .tab-pane form textarea {
+      border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 95px;
+    margin:0px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.admin-tab .tab-content p {
+    font-size: 19px;
+    padding: 22px 0;
+}
+.btn.btn-primary.continue {
+    float: right;
+    margin: 20px 0;
+}
+.btn.btn-primary {
+    font-size: 18px;
+    padding: 5px 30px;
+}
+ 
+.admin-tab .nav-tabs > li.active {
+    background: #337ab7;
+}
+.admin-tab .nav-tabs > li.active a::after {
+     background: transparent ;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 24px solid #337ab7;
+    content: "";
+    position: absolute;
+    right: -35px;
+    top: 12px;
+    transform: rotate(-89deg);
+    width: 40px;
+  z-index: 99999;
+}
+/*
+.admin-tab .nav-tabs > li a::after {
+   background: transparent none repeat scroll 0 0;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid #dfdfdf;
+    content: "";
+    position: absolute;
+    right: -34px;
+    top: 13px;
+    transform: rotate(-89deg);
+    width: 40px;
+    z-index: 99999;
+}
+*/
+.admin-tab .nav-tabs > li > a i {
+  color: #494949;
+    font-size: 14px;
+    height: 27px;
+    line-height: 28px;
+    margin: 0 15px;
+    text-align: center;
+    width: 27px;
+}
+.admin-tab .nav-tabs > li.active i {
+    background: #dfdfdf ;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px #004780;
+    
+}
+#addtextarea {
+    background: #dfdfdf ;
+    border: 1px solid #bcbcbc;
+    color: #337ab7;
+    float: right;
+    font-size: 16px;
+    margin: 0 0 20px;
+    padding: 6px 18px;
+    text-transform: capitalize;
+}
+#addtextarea i {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+.admin-tab input[type="checkbox"], .admin-tab input[type="radio"] {
+    margin: 10px 0 25px;
+	 
+}
+.appenddiv span{text-transform: capitalize;}
+.btn.btn-primary.continue i {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0 0 0 8px;
+}
+
+/*New Code*/
+.tabs-wrap {
+    margin-top: 40px;
+}
+.tab-content .tab-pane {
+    padding: 20px 0;
+}
+.admin-tab .nav-tabs > li.active > a, .admin-tab .nav-tabs > li.active > a:focus, .admin-tab .nav-tabs > li.active > a:hover{
+ background:none;
+    border: none;
+    color: #fff; 
+ 
+}
+ 
+.tabs-wrap.admin-tab {
+    background: #f1f1f1 ;
+    float: left;
+    padding: 20px 0;
+    width: 900px;
+}
+.admin-tab .nav-tabs > li {
+      display: inline-block;
+    float: none;
+    margin: 0 -2px;
+    width: 30%;
+}
+.admin-tab .nav-tabs > li > a {
+ background: #dfdfdf;
+    border: medium none;
+    border-radius: 0;
+    color: #337ab7;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.admin-tab .nav-tabs {
+  
+    border-bottom: medium none;
+    text-align: center;
+}
+.admin-tab  .tab-content {
+ 
+    float: left;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.admin-tab  .tab-content .tab-pane {
+    padding: 20px 30px;
+}
+ 
+.admin-tab .tab-content .tab-pane  h3{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+ 
+.admin-tab .tab-content form select, .admin-tab .tab-content form input[type="file"] {
+    border-color: #ddd currentcolor #ddd #ddd;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid none solid solid;
+    border-width: 1px 2px 1px 1px;
+    float: left;
+       text-transform: capitalize;
+    height: 34px;
+    margin: 0 0 22px;
+    padding:0px 5px;
+    width: 100%;
+}
+ .admin-tab .tab-content form input[type="file"]{border:none;
+ }
+.admin-tab .tab-content .tab-pane form label {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.admin-tab .tab-content .tab-pane form textarea {
+      border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 95px;
+    margin:0px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.admin-tab .tab-content p {
+    font-size: 19px;
+    padding: 22px 0;
+}
+.btn.btn-primary.continue {
+    float: right;
+    margin: 20px 0;
+}
+.btn.btn-primary {
+    font-size: 18px;
+    padding: 5px 30px;
+}
+ 
+.admin-tab .nav-tabs > li.active {
+    background: #337ab7;
+}
+.admin-tab .nav-tabs > li.active a::after {
+     background: transparent ;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 24px solid #337ab7;
+    content: "";
+    position: absolute;
+    right: -35px;
+    top: 12px;
+    transform: rotate(-89deg);
+    width: 40px;
+  z-index: 99999;
+}
+/*
+.admin-tab .nav-tabs > li a::after {
+   background: transparent none repeat scroll 0 0;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid #dfdfdf;
+    content: "";
+    position: absolute;
+    right: -34px;
+    top: 13px;
+    transform: rotate(-89deg);
+    width: 40px;
+    z-index: 99999;
+}
+*/
+.admin-tab .nav-tabs > li > a i {
+  color: #494949;
+    font-size: 14px;
+    height: 27px;
+    line-height: 28px;
+    margin: 0 15px;
+    text-align: center;
+    width: 27px;
+}
+.admin-tab .nav-tabs > li.active i {
+    background: #dfdfdf ;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px #004780;
+    
+}
+#addtextarea {
+    background: #dfdfdf ;
+    border: 1px solid #bcbcbc;
+    color: #337ab7;
+    float: right;
+    font-size: 16px;
+    margin: 0 0 20px;
+    padding: 6px 18px;
+    text-transform: capitalize;
+}
+#addtextarea i {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+.admin-tab input[type="checkbox"], .admin-tab input[type="radio"] {
+    margin: 10px 0 25px;
+     
+}
+.appenddiv span{text-transform: capitalize;}
+.btn.btn-primary.continue i {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 0 0 0 8px;
+}
